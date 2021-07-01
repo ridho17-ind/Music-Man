@@ -46,15 +46,15 @@ async def update_admin(client, message: Message):
         ),
     )
 
-    await message.reply_text("✅ Bot **berhasil dimulai ulang!**\n\n• **Daftar admin** telah **diperbarui**",
+    await message.reply_text("📸 Bot **berhasil dimulai ulang!**\n\n• **Daftar admin** telah **diperbarui**",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
-                        "Group Support", url="https://t.me/SharingUserbot"
+                    InlineKeyboardButton(!
+                        "Group Support", url="https://t.me/SadRoomsChat"
                     ),
                     InlineKeyboardButton(
-                        "Owner", url="https://t.me/mrismanaziz"
+                        "Owner", url="https://t.me/XFLSkyzo"
                     )
                 ]
             ]
@@ -146,4 +146,4 @@ async def admincache(client, message: Message):
         ),
     )
 
-    await message.reply_text("✅️ **Daftar admin** telah **diperbarui**")
+    await message.reply_text("📸 **Daftar admin** telah **diperbarui**")
